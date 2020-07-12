@@ -34,8 +34,5 @@
 # CMake
 build/
 
-# Vscode
-.vscode
-
 # Apple
 .DS_Store
