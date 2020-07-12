@@ -1,6 +1,6 @@
 #include "logic.h"
 
-bool modus_ponens(std::pair<std::string, std::string> conditional, std::string antecedent)
+bool modusPonens(std::pair<std::string, std::string> conditional, std::string antecedent)
 {
     auto ret = false;
 

@@ -4,5 +4,5 @@
 #include <utility>
 #include <string>
 
-bool modus_ponens(std::pair<std::string, std::string> conditional, std::string);
+bool modusPonens(std::pair<std::string, std::string> conditional, std::string);
 #endif // __LOGIC_H__
