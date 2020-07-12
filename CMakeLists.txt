@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.1.0)
 project(SymbolicLogic VERSION 0.1.0)
 
+find_package(Catch2 REQUIRED)
+include(Catch)
+include(CTest)
+enable_testing()
 
 include_directories(src)
 add_subdirectory(src)
